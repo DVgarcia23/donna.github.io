@@ -1,0 +1,53 @@
+#home-info {
+  background-color: rgb(206, 86, 156);
+}
+#home-info .card {
+  background: transparent;
+  border: 0;
+}
+
+#home-info .img{
+    align-self: center;
+}
+
+#home-info .lizel
+{
+    margin-top: 5%;
+}
+
+ #home-info .btn-brand{
+    color:rgb(101, 99, 211);
+    background:rgb(82, 83, 83);
+ }
+
+ #home-info .btn-brand:hover{
+    color: #959ff3;
+    background: rgb(12, 48, 7);
+ }
+ 
+
+  
+  
+  @keyframes screen {
+    from {
+      opacity: 0;
+    }
+  
+    25%{
+      opacity: 0.3;
+      transform: scale3d(3, 3, 4);
+    }
+  
+    50%{
+      opacity: 0.75;
+    }
+  
+    75%{
+      opacity: 1;
+  
+    }
+  
+    to{
+      opacity: 0;
+    }
+  }
